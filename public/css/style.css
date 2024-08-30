@@ -1,6 +1,39 @@
-h1{
-    color: red;
+body {
+    background-color: #264653;
+    font-family: "Roboto", sans-serif;
 }
+h1{
+    font-size: 6vw;
+    color: #2a9d8f;
+}
+
+/* index.ejs */
+.index-top {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index-bottom {
+    height: 50vh;
+    display: flex;
+}
+.index-login, .index-signup {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9c46a;
+}
+.index-signup {
+    background-color: #f4a261;
+}
+.index-bottom a {
+    font-size: 5vw;
+    color: #e76f51;
+}
+
+/* to-dos */
 .completed{
     text-decoration: line-through;
     color: gray;
